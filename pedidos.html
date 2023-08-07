@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="volta">
+        <span><a href="index.html">↩ Voltar</a></span>
+    </div>
+
+
+    <section class="box">
+
+        <div class="headp">
+            <img src="img/lg.webp" alt="Logo">
+            <h1><b>Pedidos</b></h1>
+        </div>
+
+        <form action="https://api.sheetmonkey.io/form/iJfPn9WamLAHhFBbuwSX6Y" method="post">
+                <div class="inputbox">
+                    <input type="text" name="codigopd" id="codigopd" class="inputuser" required>
+                    <label for="codigopd" class="labelinput">Código do Pedido </label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="codigo" id="codigo" class="inputuser" required>
+                    <label for="codigo" class="labelinput">Código do Cliente </label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="namevend" id="namevend" class="inputuser" required>
+                    <label for="namevend" class="labelinput">Nome do Vendedor</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="produto" id="produto" class="inputuser" required>
+                    <label for="produto" class="labelinput">Produto</label>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <input type="text" name="valor" id="valor" class="inputuser" required>
+                    <label for="valor" class="labelinput">Valor</label>
+                </div>
+
+            <button class="button" type="submit">Continuar</button>
+            <button class="button" type="reset">Limpar</button>
+        </form>
+
+        
+    </section>
+
+</body>
+</html>
